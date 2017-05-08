@@ -1,5 +1,5 @@
 # HttpGetComponentsHttpClient
-Test HTTP GET using the newer Apache HttpComponents [HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/index.html) which replaced the older Apache Commons [HttpClient](http://hc.apache.org/httpclient-3.x/).
+Test HTTP GET using the newer Apache HttpComponents [HttpClient](http://hc.apache.org/httpcomponents-client-4.5.x/index.html) which replaced the older Apache Commons [HttpClient](http://hc.apache.org/httpclient-3.x/) which is at the end of its life.
 
 This newer HttpClient is compatible with the latest SSL and TLS.  The older commons HttpClient is not.  The Spring Framework [RestTemplate](https://docs.spring.io/spring/docs/current/javadoc-api/index.html?org/springframework/web/client/RestTemplate.html) uses HttpComponents under the covers.
 
